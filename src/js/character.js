@@ -25,14 +25,15 @@ const changePlayerState = (prop) => {
   }
 }
 
-//UI
+// UI
 
 const updateStateObj = storeState();
-const defaultValues = {hp: 10, mp: 8, inventory: [], class: "", str: 8, def: 8, wis: 8, con: 8}
-const knightValues = {hp: 15, mp: 8, inventory: [], class: "", str: 8, def: 12, wis: 8, con: 10}
-const clericValues = {hp: 10, mp: 8, inventory: [], class: "", str: 8, def: 8, wis: 12, con: 8}
+const defaultValues = {hp: 10, mp: 8, class: "", str: 8, def: 8, wis: 8, con: 8}
+const knightValues = {hp: 15, mp: 8, class: "Knight", str: 8, def: 12, wis: 8, con: 10}
+const clericValues = {hp: 10, mp: 8, class: "Cleric", str: 8, def: 8, wis: 12, con: 8}
 
 const newPlayer = addPlayer(knightValues)("Fred");
+console.log(newPlayer);
 const newPlayer2 = addPlayer(clericValues)("Wilma");
 
 
@@ -46,5 +47,11 @@ console.log("state obj", newState3) // should show Fred hp: 20
 const newState4 = updateStateObj(healthPotion, "Wilma");
 console.log("state obj", newState4);
 
-| US03 | As user, I should be able to create an inventory | false |
-| US04 | As user, I should be able to level up my character | false |
+// const weapon = changePlayerState("inventory")(["master sword"]);
+// const shield = changePlayerState("inventory")(["hylian shield"]);
+// const newState5 = updateStateObj(weapon, "Fred");
+// console.log("state obj", newState5);
+// const newState6 = updateStateObj(shield, "Fred");
+// console.log("state obj", newState6);
+
+// For updating inventory: Object.assign() instead of spread operator. But, Object.assign() doesn't like being iterated on - so it would have to go in its own function that gets called on once...
