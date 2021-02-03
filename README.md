@@ -1,51 +1,83 @@
-# _{TODOApplication Name}_
+# Oubliettes & Dragonnes
 
 <div align="center">
-<img style="border-radius: 25px;" src="https://github.com/jeffchiudev.png" width="200px" height="auto" >
+
+
+## Kirkland brand dungeon crawler SIM
+
+#### ✒️ Tawnee Harris, David Sterry & Jeff Chiu
+
+<img src="https://github.com/tawneeh.png" width="200px" height="auto" style="border-radius: 15px 50px;">
+<img src="https://github.com/Dave-Sterry.png" width="200px" height="auto" style="border-radius: 15px 50px;">
+<img src="https://github.com/jeffchiudev.png" width="200px" height="auto" style="border-radius: 15px 50px;">
+<br>
+
+#### 03 Feb 2021
+
 </div>
-<p align="center">Authored by Jeff Chiu</p>
-<p align="center">Updated on: TODO </p>
 
-#### _{TODOBrief description of application}, {TODODate of current version}_
 
-#### By _**{TODOList of contributors}**_
+# 🧑‍💻 Contributers
+
+| Name | GitHub Profile |
+|------|----------------|
+|[Tawnee Harris](https://www.linkedin.com/in/tawneeh/)|[tawneeh](https://github.com/tawneeh)|
+|[David Sterry](https://www.linkedin.com/in/david-sterry-developer/)|[Dave-Sterry](https://github.com/Dave-Sterry.png)|
+|[Jeff Chiu](https://www.linkedin.com/in/jeff-chiu-developer/)|[jeffchiudev](https://github.com/jeffchiudev)|
+
 
 ## Description:
 
-_{TODOThis is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+{TODOThis is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+
+## User Stories
+
+<details><summary>Click Here</summary>
+<p>
+
+| US ID# | Description | Completed? |
+| :----------: | :---- | :----: |
+| US01 | As user, I should be able to create a character with unique stats | false |
+| US02 | As user, I should be able to modify character stats | false |
+| US03 | As user, I should be able to create an inventory | false |
+| US04 | As user, I should be able to level up my character | false |
+| US05 | As user, I should be able to create a character | false |
+
+</p>
+</details>
 
 ## Site link
 
-_[Click here](https://jeffchiudev.github.io/TODOexample-repo/) to visit the site._
+[Click here](https://jeffchiudev.github.io/TODOexample-repo/) to visit the site.
 
 
 ## Setup/Installation Requirements:
 
 ### Software Requirements:
 
-_1. Internet browser of choice. Chrome is suggested._
+1. Internet browser of choice. Chrome is suggested.
 
-_2. A code editor like VSCode or Atom to view or edit the codebase._
+2. A code editor like VSCode or Atom to view or edit the codebase.
 
 
 ### Open by downloading:
 
-_1. Download [this](https://github.com/jeffchiudev/example-repo) repository onto your computer by clicking the 'clone or download button'._
+1. Download [this](https://github.com/jeffchiudev/example-repo) repository onto your computer by clicking the 'clone or download button'.
 
-_2. This page utilizes Node package manager and requires local files to be installed. Once you've cloned the repository and it's accompanying config files, use the following command `npm install` to install the necessary NPM files to display correctly._
+2. This page utilizes Node package manager and requires local files to be installed. Once you've cloned the repository and it's accompanying config files, use the following command `npm install` to install the necessary NPM files to display correctly.
 
-_3. Type `npm run build` to compile the page into the distribution directory with a new index.html and new bundle.js file.._
+3. Type `npm run build` to compile the page into the distribution directory with a new index.html and new bundle.js file..
 
-_4. Type `npm run start` to begin a live server to view the page._
+4. Type `npm run start` to begin a live server to view the page.
 
 ### Open via Bash/GitBash:
 
-_1. Open terminal window and navigate to/create desired repository location._
+1. Open terminal window and navigate to/create desired repository location.
 
-_2. Clone this repository onto your computer by using command:_
+2. Clone this repository onto your computer by using command:
 `git clone https://github.com/jeffchiudev/TODOexample-repo`
 
-_3. In the directory where you've cloned the repository, open in Visual Studio Code with `code .` or preferred text editor._
+3. In the directory where you've cloned the repository, open in Visual Studio Code with `code .` or preferred text editor.
 
 ## Testing Specifications:
 
@@ -54,23 +86,32 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 
 | Description | Input | Ouput |
 | :---------- | :---- | :---- |
+||||
+||||
+||||
+||||
+||||
 
 </p>
 </details>
 
 ## Known Bugs:
 
-_Currently optimized for desktop browsing.  Smart device integration will be added soon._
+Currently optimized for desktop browsing.  Smart device integration will be added soon.
 
-## Support and contact details:
+## 📫 Support and contact details
 
-_If there are any issues, I can be contacted at jeffchiudev@gmail.com_
+Please feel free to reach out anytime:
+
+* David <sterry.david@gmail.com>
+* Jeff <jeffchiudev@gmail.com>
+* Tawnee <tawneeh@icloud.com>
 
 
 ## Technologies Used:
 
-_{TODOTell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+{TODOTell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2020 **_Jeff W. Chiu_** 
+Copyright (c) 2021 **Jeff W. Chiu, David Sterry, and Tawnee Harris** 
