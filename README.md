@@ -37,11 +37,11 @@
 
 | US ID# | Description | Completed? |
 | :----------: | :---- | :----: |
-| US01 | As user, I should be able to create a character with unique stats | false |
-| US02 | As user, I should be able to modify character stats | false |
+| US01 | As user, I should be able to create a character with unique stats | true |
+| US02 | As user, I should be able to modify character stats | true |
 | US03 | As user, I should be able to create an inventory | false |
 | US04 | As user, I should be able to level up my character | false |
-| US05 | As user, I should be able to create a character | false |
+| US05 | As user, I should be able to create a character | true |
 
 </p>
 </details>
