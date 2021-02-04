@@ -1,4 +1,4 @@
-const storeState = (initialState = {}) => {
+export const storeState = (initialState = {}) => {
   let currentState = initialState;
   return (stateChangeFunction = state => state, playerName) => {
     const newState = stateChangeFunction(currentState, playerName);
@@ -7,7 +7,7 @@ const storeState = (initialState = {}) => {
   }
 }
 
-const addPlayer = (defaultValues) => {
+export const addPlayer = (defaultValues) => {
   return (playerName) => {
     return (state) => ({
       ...state,
@@ -16,7 +16,7 @@ const addPlayer = (defaultValues) => {
   }
 }
 
-const changePlayerState = (prop) => {
+export const changePlayerState = (prop) => {
   return (value) => {
     return (state, playerName) => ({
       ...state,
@@ -27,17 +27,17 @@ const changePlayerState = (prop) => {
 
 // UI
 
-const updateStateObj = storeState();
-const defaultValues = {hp: 10, mp: 8, class: "", str: 8, def: 8, wis: 8, con: 8}
-const knightValues = {hp: 15, mp: 8, class: "Knight", str: 8, def: 12, wis: 8, con: 10}
-const clericValues = {hp: 10, mp: 8, class: "Cleric", str: 8, def: 8, wis: 12, con: 8}
+export const updateStateObj = storeState();
+export const defaultValues = {hp: 10, mp: 8, class: "", str: 8, def: 8, wis: 8, con: 8};
+const knightValues = {hp: 15, mp: 8, class: "Knight", str: 8, def: 12, wis: 8, con: 10};
+const clericValues = {hp: 10, mp: 8, class: "Cleric", str: 8, def: 8, wis: 12, con: 8};
 
 const newPlayer = addPlayer(knightValues)("Fred");
 console.log(newPlayer);
 const newPlayer2 = addPlayer(clericValues)("Wilma");
 
 
-const newState = updateStateObj(newPlayer);
+export const newState = updateStateObj(newPlayer);
 console.log("state obj", newState); // show current state
 const newState2 = updateStateObj(newPlayer2);
 console.log("state obj", newState2)
